@@ -11,3 +11,8 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+Pentru a porni corect proiectul trb: - sa ti crezi o retea local cu ajutorul hardhat-ului folosit comanda: npx hardhat node( si sa l lasi pornit )
+                                     - sa te conectezi cu portofelul crypto la acea retea
+                                     - sa dai deploy la contract pe acea retea cu ajutorul comenzii npx hardhat run scripts/deploy.js --network localhost
+                                     - sa pornesti aplicatia cu ajutorul comenzii npm run dev
